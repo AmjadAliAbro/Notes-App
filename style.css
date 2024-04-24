@@ -11,15 +11,12 @@
   background: linear-gradient(135deg, #cf9aff, #95c0ff);
   color: #fff;
   padding-top: 4%;
-  padding-left: 10%;
-  padding-right: 10%;
 }
 
 .container h1 {
-  display: flex;
-  align-items: center;
   font-size: 35px;
   font-weight: 600;
+  padding-left: 20%;
 }
 
 .container h1 img {
@@ -40,7 +37,7 @@
   outline: 0;
   border: 0;
   padding: 15px 25px;
-  margin: 30px 0 20px;
+  margin: 30px 0 20px 20%;
   cursor: pointer;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -49,15 +46,21 @@
   -o-border-radius: 40px;
 }
 
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .input-box {
   position: relative;
   width: 100%;
-  max-width: 500px;
+  max-width: 200px;
   min-height: 150px;
   background: #fff;
   color: #333;
   padding: 20px;
-  margin: 20px 0;
+  margin: 10px;
   outline: none;
   border-radius: 9px;
   -webkit-border-radius: 9px;
